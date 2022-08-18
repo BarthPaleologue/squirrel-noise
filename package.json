@@ -1,0 +1,33 @@
+{
+  "name": "squirrel-noise",
+  "version": "1.0.0",
+  "description": "A typescript implementation of Squirrel Eiserloh's noise based RNG explained at GDC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "test": "node index.js",
+    "start": "npm run build && npm run test",
+    "format": "prettier --write index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarthPaleologue/squirrel-noise.git"
+  },
+  "keywords": [
+    "random",
+    "noise",
+    "rng",
+    "pseudo-random",
+    "squirrel"
+  ],
+  "author": "Barthélemy Paléologue",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/BarthPaleologue/squirrel-noise/issues"
+  },
+  "homepage": "https://github.com/BarthPaleologue/squirrel-noise#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
